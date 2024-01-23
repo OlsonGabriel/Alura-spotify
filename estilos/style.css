@@ -55,11 +55,16 @@ body{
 
 }
 
-.biblioteca{
+.library{
     background-color: #121212;
     border-radius: 8px;
-    margin: 8px 0px;
-    height: 100%;
-    width: 300px;
+    display: flex; /*flex box, deixa mais flexivel o posicionamento dos elementos*/
+    justify-content: space-between; /*Space between - organiza os itens de forma justificada com um espaçamento entre os objetos*/
+    flex-direction: column; /*organiza os itens em colunas*/
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
 
 }
