@@ -1,5 +1,6 @@
 body{
     background-color:black;
+    display: flex;
 
 }
 
@@ -191,4 +192,9 @@ body{
     padding: 8px;
     border-radius: 20px;
 
+}
+
+footer{
+    
+    
 }
