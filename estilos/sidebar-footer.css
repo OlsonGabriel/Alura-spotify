@@ -1,6 +1,6 @@
 body{
     background-color:black;
-    display: flex;
+    font-family: var(--font-dm-sans);
 
 }
 
@@ -52,7 +52,7 @@ body{
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
+    
 
 }
 
@@ -83,7 +83,6 @@ body{
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -129,7 +128,6 @@ body{
 .section_playlist_content .text{
     padding-bottom: 14px;
     color: #fff;
-    font-family: "DM Sans", sans-serif;
 
 }
 
@@ -152,7 +150,6 @@ body{
     font-size: 12px;
     font-weight: 700;
     justify-content: center;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -195,6 +192,50 @@ body{
 }
 
 footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 50px;
+    background-image: linear-gradient(to right, rgb(151, 0, 151), rgb(68, 120, 253));
+    color: #fff;
+    margin: 8px;
+    padding: 8px;
     
-    
+}
+
+footer .rodape{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer .rodape .rodape_content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer .rodape .rodape_content .text{
+    padding-bottom: 14px;
+    color: #fff;
+    font-size: 14px;
+
+}
+
+footer .rodape .rodape_content .title{
+    font-weight: 700;
+
+}
+
+footer .rodape button{
+    position: fixed;
+    right: 0;
+    padding: 15px 30px;
+    margin-right: 30px;
+    border-radius: 25px;
+    border: 1px solid #878787;
+    font-weight: 600;
+    font-size: 14px;
+
 }
